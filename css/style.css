@@ -271,3 +271,79 @@ body {
 .best-offer > .third-content > img {
     margin-top: 43px;
 }
+
+/* Holiday Sale CSS */
+
+.holiday-sale {
+    margin-top: 120px;
+    width: 1320px;
+    height: 986.07px;
+    margin: 120px auto 0px;
+}
+
+.holiday-sale > .top-content {
+    text-align: center;
+}
+
+.holiday-sale > .top-content > h6 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.holiday-sale > .top-content > h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: normal;
+    color: #070211;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.holiday-sale > .top-content > h1 > span {
+    color: #F00;
+}
+
+.holiday-sale > .top-content > p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    padding-left: 126px;
+    padding-right: 126px;
+    margin-top: 28px;
+}
+
+.holiday-sale > .bottom-content {
+    margin-top: 64px;
+    position: relative;
+}
+
+.holiday-sale > .bottom-content > .top-images > .first-image {
+    position: absolute;
+    z-index: 10;
+}
+
+.holiday-sale > .bottom-content > .top-images > .second-image {
+    display: flex;
+    float: right;
+}
+
+.holiday-sale > .bottom-content > .top-images > .second-image > img:first-of-type {
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-radius: 16px 16px 0px 0px;
+    margin-left: -10px;
+}
+
+.holiday-sale > .bottom-content > .top-images > .second-image > img:nth-child(2) {
+    margin-left: 92px;
+}
