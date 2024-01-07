@@ -39,3 +39,48 @@ body {
     margin-top: 16px;
 }
 
+/* Holiday Deals CSS */
+
+.holiday-deals > .holiday-text {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 120px 609px 0px 608px;
+}
+
+.holiday-deals > .holiday-text > h1 {
+    color: #F00;
+    font-size: 88px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.holiday-deals > .holiday-text > p {
+    color: #F00;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.holiday-deals > .holiday-text > h2 {
+    color: #070211;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.holiday-deals > img {
+    display: block;
+    margin: auto;
+    width: 802.9px;
+    height: 500px;
+    fill: lightgray 50% / cover no-repeat;
+    margin-top: 48px;
+}
