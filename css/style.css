@@ -1,0 +1,41 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* Header CSS */
+.header-image {
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px; 
+    background: url('../images/Banner\ Image.png'), lightgray 0px -150.131px / 100% 164.194% no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+
+.header-image > .header-content {
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); 
+}
+
+.header-image > .header-content > h6 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 177px 531px 0px 530px;
+    margin-bottom: 0px;
+}
+
+.header-image > .header-content > h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+    padding: 0px 344px;
+    margin-top: 16px;
+}
+
