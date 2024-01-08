@@ -399,3 +399,84 @@ body {
 .portfolio-images-2  {
     margin-top: 24px;
 }
+
+/* Newsletter Section CSS */
+
+.newsletter {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: auto;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.newsletter > .newsletter-content > img {
+    padding-top: 80px;
+    margin-bottom: 0px;
+}
+
+.newsletter > .newsletter-content > p:first-of-type {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.newsletter > .newsletter-content > p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 896px;
+    margin: 22px auto;
+}
+
+.newsletter > .subscribe  {
+    display: flex;
+    margin: 0 auto;
+    padding: 0px 336px;
+    margin-top: 48px;
+}
+
+.newsletter > .subscribe > input {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    padding-left: 30px;
+    border: solid transparent;
+}
+
+.newsletter > .subscribe > input:focus-visible {
+    outline: none;
+}
+
+.newsletter > .subscribe > input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.newsletter > .subscribe > input[type='submit'] {
+    width: 210px;
+    height: 80px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: -50px;
+    padding: 24px 56px;
+    cursor: pointer;
+}
