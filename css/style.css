@@ -5,36 +5,34 @@ body {
 /* Header CSS */
 .header-image {
     width: 1320px;
-    height: 600px;
     border-radius: 16px; 
     background: url('../images/Banner\ Image.png'), lightgray 0px -150.131px / 100% 164.194% no-repeat;
-    display: block;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 .header-image > .header-content {
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); 
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    color: #FFF;
 }
 
 .header-image > .header-content > h6 {
-    color: #FFF;
-    text-align: center;
     font-size: 32px;
     font-weight: 400;
     line-height: normal;
     padding: 177px 531px 0px 530px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .header-image > .header-content > h1 {
-    color: #FFF;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-    line-height: 95px; /* 131.944% */
+    line-height: 95px;
     padding: 0px 344px;
     margin-top: 16px;
 }
@@ -55,7 +53,6 @@ body {
     color: #F00;
     font-size: 88px;
     font-family: Inter;
-    font-weight: 700;
     line-height: normal;
     margin-bottom: 48px;
 }
@@ -65,8 +62,6 @@ body {
     font-size: 24px;
     font-family: Inter;
     font-weight: 500;
-    line-height: normal;
-    margin-top: 0px;
     margin-bottom: 16px;
 }
 
@@ -74,18 +69,12 @@ body {
     color: #070211;
     font-size: 48px;
     font-family: Inter;
-    font-weight: 700;
-    line-height: normal;
     margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 .holiday-deals > img {
     display: block;
     margin: auto;
-    width: 802.9px;
-    height: 500px;
-    fill: lightgray 50% / cover no-repeat;
     margin-top: 48px;
 }
 
@@ -93,9 +82,7 @@ body {
 
 .midnight-party {
     width: 1320px;
-    height: 600px;
     background: url('../images/Vectorrr.png'), lightgray 50% / cover no-repeat;
-    display: block;
     margin: auto;
     border-radius: 16px;
 }
@@ -111,19 +98,19 @@ body {
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
-    line-height: 88px; /* 137.5% */
+    line-height: 88px;
     letter-spacing: 7.04px;
     padding-left: 126px;
     padding-top: 126px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .midnight-party > .content > .left-side >  p {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
     padding-left: 126px;
     margin-top: 24px;
     margin-bottom: 48px;
@@ -133,18 +120,12 @@ body {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
-    font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     padding-left: 158px;
-    margin: 0px;
 }
 
 .midnight-party > .content > .right-side > img {
-    width: 319.83px;
-    height: 464.662px;
     margin: 68.11px 138px 67.23px 10px;
-    padding: 0.008px 0px 0px 0px; 
 }
 
 /* Location CSS */
@@ -163,7 +144,7 @@ body {
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
-    line-height: 56px; /* 175% */
+    line-height: 56px;
     text-transform: capitalize;
     padding-top: 100px;
 }
@@ -177,11 +158,9 @@ body {
     border-radius: 8px;
     background: #F00;
     color: #FFF;
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     margin-top: 48px;
     border: solid 0px;
@@ -206,7 +185,6 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    line-height: normal;
     text-transform: uppercase;
 }
 
@@ -214,7 +192,6 @@ body {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
     margin-bottom: 22px;
     margin-top: 16px;
@@ -224,14 +201,12 @@ body {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
     width: 393px;
 }
 
 .best-offer > .second-content {
     margin-left: 70px;
-    width: 463px;
     height: 463px;
     border-radius: 463px;
     border: 15px solid #F00;
@@ -250,9 +225,7 @@ body {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -261,9 +234,7 @@ body {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
     margin-top: 16px;
     margin-bottom: 0px;
 }
@@ -275,7 +246,6 @@ body {
 /* Holiday Sale CSS */
 
 .holiday-sale {
-    margin-top: 120px;
     width: 1320px;
     height: 986.07px;
     margin: 120px auto 0px;
@@ -290,7 +260,6 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    line-height: normal;
     text-transform: uppercase;
     margin-bottom: 16px;
 }
@@ -298,7 +267,6 @@ body {
 .holiday-sale > .top-content > h1 {
     font-size: 72px;
     font-weight: 900;
-    line-height: normal;
     color: #070211;
     text-transform: capitalize;
     margin-top: 0px;
@@ -314,10 +282,10 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
-    line-height: 32px; /* 160% */
-    padding-left: 126px;
-    padding-right: 126px;
+    line-height: 32px;
+    margin: 0 auto;
     margin-top: 28px;
+    width: 800px;
 }
 
 .holiday-sale > .bottom-content {
@@ -327,7 +295,6 @@ body {
 
 .holiday-sale > .bottom-content > .top-images > .first-image {
     position: absolute;
-    z-index: 10;
 }
 
 .holiday-sale > .bottom-content > .top-images > .second-image {
@@ -354,7 +321,6 @@ body {
     width: 1320px;
     height: 1163px;
     margin: auto;
-    margin-bottom: 48px;
 }
 
 .portfolio > .portfolio-content > h6 {
@@ -362,7 +328,6 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    line-height: normal;
     text-transform: uppercase;
     margin-bottom: 0px;
 }
@@ -371,7 +336,6 @@ body {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
     margin-top: 22px;
     margin-bottom: 0px;
@@ -382,13 +346,23 @@ body {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
     width: 896px;
     margin-top: 22px;
 }
 
 .portfolio-images-1 {
     margin-top: 48px;
+}
+
+.portfolio-images-1 > img, .portfolio-images-2 > img {
+    transition: transform .2s;
+}
+
+.portfolio-images-1 > img:hover, .portfolio-images-2 > img:hover {
+    transform: scale(1.2);
+    border-radius: 16px;
+    box-shadow: 0 0 15px #04aed8;
 }
 
 .portfolio-images-1, .portfolio-images-2  {
@@ -414,12 +388,10 @@ body {
 
 .newsletter > .newsletter-content > img {
     padding-top: 80px;
-    margin-bottom: 0px;
 }
 
 .newsletter > .newsletter-content > p:first-of-type {
     color: #070211;
-    text-align: center;
     font-size: 48px;
     font-weight: 900;
     line-height: normal;
@@ -431,24 +403,20 @@ body {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
     width: 896px;
     margin: 22px auto;
 }
 
 .newsletter > .subscribe  {
     display: flex;
-    margin: 0 auto;
     padding: 0px 336px;
     margin-top: 48px;
 }
 
 .newsletter > .subscribe > input {
     width: 648px;
-    height: 72px;
     border-radius: 50px;
-    background: #FFF;
     padding-left: 30px;
     border: solid transparent;
 }
@@ -461,21 +429,17 @@ body {
     color: rgba(7, 2, 17, 0.30);
     font-family: Inter;
     font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
     margin-left: 30px;
 }
 
 .newsletter > .subscribe > input[type='submit'] {
     width: 210px;
-    height: 80px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    text-transform: capitalize;
     margin-left: -50px;
     padding: 24px 56px;
     cursor: pointer;
@@ -496,7 +460,7 @@ footer {
 }
 
 footer > .footer-info {
-    line-height: 40px; /* 166.667% */
+    line-height: 40px;
     display: flex;
     justify-content: space-between;
     padding: 120px 140px;
@@ -515,21 +479,28 @@ footer > .footer-info > div > p {
     display: flex;
 }
 
+footer > .footer-info > div > p:nth-child(2) {
+    margin-top: 0px;
+}
+
 footer > .footer-info > div > p > img {
-    padding-top: 7px;
+    padding-top: 9px;
     width: 24px;
     height: 24px;
     padding-right: 10px;
 }
+footer > .footer-info > div > p > span > a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 footer > hr {
     width: 1320px;
-    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 footer > .footer-icon {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     margin: 48px 0px;
 
@@ -539,11 +510,18 @@ footer > .footer-icon > img {
     width: 64px;
     height: 64px;
     margin: 0 24px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+footer > .footer-icon > img:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow: 0 0 15px #ffee10;
 }
 
 footer > .footer-bottom {
     display: flex;
     justify-content: space-between;
     padding: 10px 140px 0px;
-    line-height: normal;
 }
